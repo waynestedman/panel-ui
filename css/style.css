@@ -1,0 +1,42 @@
+.stageWrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: burlywood;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  color: #888;
+  border: 1px solid #555;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 30px;
+}
+
+.box1 {
+  background-color: darkseagreen;
+}
+
+.box2 {
+  background-color: darkslateblue;
+}
+
+.box3 {
+  background-color: darkslategray;
+}
+
+.box4 {
+  background-color: darkviolet;
+}

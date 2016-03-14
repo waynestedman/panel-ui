@@ -1,0 +1,13 @@
+{
+  "name": "panel-ui",
+  "version": "1.0.0",
+  "description": "3D Panel UI website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wayne Stedman",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  }
+}

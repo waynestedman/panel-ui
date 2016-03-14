@@ -1,0 +1,292 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"BACKGROUND",
+				"background-color"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"h",
+				"h1	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/PacWeb/htdocs/R-D/3D Panel UI"
+	],
+	"file_history":
+	[
+		"/Users/PacWeb/htdocs/R-D/3D Panel UI/index.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/websites/3D panel UI/index.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/websites/3D panel UI/scss/style.scss",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/PhysicsProps test/index.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/PhysicsProps test/main.js",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/PhysicsProps test/style.css",
+		"/Applications/MAMP/htdocs/test/wp-config.php",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/menu examples/publish/web/menu-example.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/RWD example/pac-web-rwd/publish/web/pac-web-rwd.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/RWD example/pac-web-rwd/publish/web/_server copy/pac-web-rwd.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/menu examples/menu-example.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/Menu Test/menu-test.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/Menu Test/publish/web/menu-test.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/button test/button-test/button-test.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/menu examples/menu-example/publish/web/menu-example.html",
+		"/Users/PacWeb/Documents/Clients/Commodore/website/working version/public-cruises.html",
+		"/Users/PacWeb/Documents/Clients/Commodore/website/working version/meet-the-fleet.html",
+		"/Users/PacWeb/Documents/Clients/Commodore/website/working version/public-cruises-backup-101714.html",
+		"/Applications/MAMP/htdocs/PacWeb/menu-example/menu-example.html",
+		"/Applications/MAMP/htdocs/PacWeb/pwf-sim/pac-web-rwd.html",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/R and D/Edge Animate/menu examples/menu-example/menu-example.html",
+		"/Applications/MAMP/htdocs/PacWeb/pwf-sim/_backups/pac-web-rwd-100914.html",
+		"/Applications/MAMP/htdocs/PacWeb/pwf-sim/pac-web-rwd-100914.html",
+		"/Applications/MAMP/htdocs/PacWeb/wp-content/themes/smoothpost2/style.css",
+		"/Users/PacWeb/Documents/Clients/Scott Flaxman/Scott A Flaxman website/thank you site/index.html",
+		"/Applications/MAMP/htdocs/PacWeb/_Updated files for website/100714/custom_functions.php",
+		"/Applications/MAMP/htdocs/PacWeb/wp-content/themes/smoothpost2/functions.php",
+		"/Applications/MAMP/htdocs/PacWeb/_fonts-com/pac_web-03102014/demo.htm",
+		"/Applications/MAMP/htdocs/PacWeb/_fonts-com/pac_web-03102014/demo.css",
+		"/Applications/MAMP/htdocs/PacWeb/_Updated files for website/100114/server original/style.css",
+		"/Applications/MAMP/htdocs/PacWeb/wp-content/themes/smoothpost2/custom/custom_functions.php",
+		"/Applications/MAMP/htdocs/PacWeb/wp-content/themes/smoothpost2/lib/css/icomoon.css",
+		"/Applications/MAMP/htdocs/PacWeb/wp-content/themes/smoothpost2/lib/css/font-awesome.css",
+		"/Users/PacWeb/Documents/Pacific Web Foundry/Creative/website/web icons/091614/icomoon/demo.html",
+		"/Applications/MAMP/htdocs/PacWeb/PavWeb-local.sublime-project",
+		"/Users/PacWeb/Documents/Clients/Amber Regina/website/backups of staging site/090514 - partial/site files/wp-content/themes/clipcart/woocommerce/product category loop",
+		"/Users/PacWeb/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/PacWeb/Documents/Clients/Fiorella Ins/Reform Experts/backups/082814/site files/wp-content/themes/readyfolio2/custom/custom_functions.php",
+		"/Users/PacWeb/Documents/Clients/Fiorella Ins/Reform Experts/backups/082814/site files/wp-content/themes/readyfolio2/functions.php",
+		"/Users/PacWeb/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/PacWeb2/wp-content/themes/twentytwelve/functions.php",
+		"/Applications/MAMP/htdocs/PacWeb2/wp-content/themes/newPacWeb/functions.php",
+		"/Applications/MAMP/htdocs/PacWeb2/wp-content/themes/genesis/lib/structure/header.php",
+		"/Applications/MAMP/htdocs/PacWeb2/index.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/PacWeb/Documents/Clients/Amber Regina/website/backups of staging site/090514 - partial/site files/wp-content",
+			"/Users/PacWeb/Documents/Clients/Amber Regina/website/backups of staging site/090514 - partial/site files/wp-content/themes/clipcart",
+			"/Users/PacWeb/Documents/Clients/Fiorella Ins/Reform Experts/backups/082814/site files/wp-content/plugins/gravityforms",
+			"/Users/PacWeb/Documents/Clients/Fiorella Ins/Reform Experts/backups/082814/site files",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5C9C4F",
+			" be_title_toggle",
+			" be_title_toggle_post_types",
+			"roboto",
+			"roboto slab",
+			"footer_genesis_link",
+			"66ab58",
+			"5a8552",
+			"3e7b7a\n3e7b7a\n3e7b7a\n3e7b7a\n5a8552",
+			"5d9d50",
+			"6ab05b",
+			"7bcc6b",
+			"portfolio",
+			".fa",
+			"portfolio",
+			":200",
+			"product_category",
+			"product category",
+			"product_category",
+			" $entry['38.4']",
+			"id: 2",
+			"enrollment",
+			"template_enroll_custom.php",
+			":99",
+			"site description"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"4b9694",
+			"Jeunesse W01 Bold",
+			"53a7a5",
+			"3e7b7a",
+			"4b9694",
+			"53a7a5",
+			"4b9694",
+			".ic"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "3D-Panel-UI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
