@@ -1,7 +1,6 @@
 var postcss = require('gulp-postcss'), 
 	gulp = require('gulp'),
    gutil = require('gulp-util'),
-   // browserify = require('gulp-browserify'),
    compass = require('gulp-compass'),
    livereload = require('gulp-livereload'),
    gulpif = require('gulp-if'),
@@ -14,7 +13,6 @@ var env,
 	jsSources,
 	sassSources,
 	htmlSources,
-	phpSources,
 	outputDir,
 	sassStyle;
 
@@ -34,12 +32,10 @@ jsSources = [
 ];
 sassSources = ['_components/sass/style.scss'];
 htmlSources = ['*.html'];
-phpSources = ['*.php', 'template-parts/*.php'];
 
 gulp.task('js', function() {
 	gulp.src(jsSources)
 		.pipe(concat('main.js'))
-		// .pipe(browserify())
 		.pipe(gulp.dest('_development/js'))
 		.pipe(uglify())
 		.pipe(gulp.dest('js'))
@@ -63,17 +59,11 @@ gulp.task('watch', function() {
   gulp.watch(jsSources, ['js']);
   gulp.watch('_components/sass/**/*.scss', ['compass']);
   gulp.watch(htmlSources, ['html'])
-  gulp.watch(phpSources, ['php'])
   gulp.watch(('_development/css/style.css'), ['prefix']);
 });
 
 gulp.task('html', function() {
 	gulp.src(htmlSources)
-		.pipe(livereload());
-});
-
-gulp.task('php', function() {
-	gulp.src(phpSources)
 		.pipe(livereload());
 });
 
@@ -88,4 +78,4 @@ gulp.task('prefix', function () {
 		.pipe(gulp.dest('.'))
 		.pipe(livereload());
 });
-gulp.task('default', ['php', 'html', 'js', 'compass', 'prefix', 'watch']);
+gulp.task('default', ['html', 'js', 'compass', 'prefix', 'watch']);

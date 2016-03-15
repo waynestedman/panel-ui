@@ -2,12 +2,26 @@
   "name": "panel-ui",
   "version": "1.0.0",
   "description": "3D Panel UI website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waynestedman/panel-ui.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wayne Stedman",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-util": "^3.0.7"
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "jquery": "^2.2.1"
   }
 }
